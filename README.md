@@ -1,42 +1,70 @@
 # ♻️ Waste Classification using AI/ML
 
-This project is a simple machine learning model that classifies waste into different categories. The goal is to help in better waste segregation, which is important for recycling and environmental sustainability.
+This project is a machine learning model that classifies waste into different categories to support better recycling and waste management.
+
+---
 
 ## 🚀 What this does
-The model takes an input (image/data) and predicts the type of waste, such as:
-- Organic
-- Recyclable
-- Non-recyclable
-- (add your actual categories here)
+
+The model takes input (image/data) and predicts the type of waste:
+
+* Organic
+* Recyclable
+* Non-recyclable
+
+---
 
 ## 🛠️ Tech Used
-- Python
-- (TensorFlow / Keras / Scikit-learn — mention what you used)
-- NumPy, Pandas (if used)
-- OpenCV (if image-based)
+
+* Python
+* TensorFlow / Keras / Scikit-learn
+* NumPy, Pandas
+* OpenCV (if used)
+
+---
 
 ## 📂 Project Structure
-  ├── dataset/ # training data
-  ├── model/ # saved model files
-  ├── main.py # main script
-  ├── train.py # training code
-  └── README.md
-  
+
+```
+dataset/        # training data
+model/          # saved model files
+main.py         # main script
+train.py        # training code
+README.md
+```
+
+---
+
 ## ▶️ How to Run
 
-1. Clone the repository:
-```bash
+### 1. Clone the repository
+
+```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2.Install dependencies:
+```
+
+### 2. Install dependencies
+
+```
 pip install -r requirements.txt
-3.Run the model:
+```
+
+### 3. Run the model
+
+```
 python main.py
+```
+
+---
 
 ## 📊 Future Improvements
-Improve accuracy with larger dataset
-Add real-time detection using camera
-Deploy as a web/mobile app
+
+* Improve accuracy with larger dataset
+* Add real-time detection using camera
+* Deploy as a web/mobile app
+
+---
 
 ## 💡 Why I built this
 
